@@ -1,0 +1,78 @@
+body {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.prime::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  background-image: url(img/bg-snow.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 50vh;
+  z-index: -1;
+}
+
+.prime {
+  position: relative;
+  min-height: 50vh;
+  background: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,1));
+}
+
+.prime main{
+  color: rgb(255, 255, 255);
+}
+
+.mynavbar{
+    background-color: rgb(197, 197, 197) !important;
+}
+
+.mynavbar .navbar-brand{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+}
+
+.mynavbar .menu-navbar{
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.mynavbar .menu-navbar a{
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  color: #222;
+}
+
+.mynavbar .menu-navbar a:hover{
+  color: white;
+}
+
+.card-trip {
+    position: relative;
+    cursor: pointer;
+  }
+
+.card-trip:hover{
+  outline: .1rem solid #222;
+  outline-offset: 0;
+  transform: scale(1.1);
+}
+
+
+@media(max-width: 1200px){
+  
+}
+@media(max-width: 992px){
+
+}
+@media(max-width: 768px){
+
+}
+@media(max-width: 576px){
+
+}
