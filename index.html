@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Page</title>
+    <link rel="icon" href="img/logo.png">
+    <title>Yayasan Ihsanul Amal</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -19,7 +20,7 @@
 
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-light bg-light mynavbar">
+    <nav class="navbar navbar-expand-md bg-transparent mynavbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
@@ -29,7 +30,7 @@
             height="30"
             class="d-inline-block align-text-top"
           />
-          Nama</a>
+          Yayasan Ihsanul Amal</a>
           <div class="menu-navbar" id="navbar">
               <a href="#prime">Home</a>
               <a href="#info">About</a>
@@ -42,7 +43,7 @@
     <section id="prime" class="prime w-100 h-100 p-3 mx-auto d-flex align-items-center">
       <main>
         <h1>Nama</h1>
-        <h4>Alamat</h4>
+        <h4><i class="bi bi-geo-alt-fill"></i> Alamat</h4>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, odio!</p>
       </main>
     </section>
@@ -123,7 +124,61 @@
               <div
                 class="card-trip"
                 data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
+                data-bs-target="#exampleModal1"
+              >
+                <div class="card shadow-sm p-3 mb-5 bg-white rounded h-100">
+                  <h5 class="card-title mt-3">Card title</h5>
+                  <h1 class="bi bi-book mt-4 mb-4"></h1>
+                  <div class="card-body">
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                class="card-trip"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal2"
+              >
+                <div class="card shadow-sm p-3 mb-5 bg-white rounded h-100">
+                  <h5 class="card-title mt-3">Card title</h5>
+                  <h1 class="bi bi-book mt-4 mb-4"></h1>
+                  <div class="card-body">
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                class="card-trip"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal3"
+              >
+                <div class="card shadow-sm p-3 mb-5 bg-white rounded h-100">
+                  <h5 class="card-title mt-3">Card title</h5>
+                  <h1 class="bi bi-book mt-4 mb-4"></h1>
+                  <div class="card-body">
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                class="card-trip"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal4"
               >
                 <div class="card shadow-sm p-3 mb-5 bg-white rounded h-100">
                   <h5 class="card-title mt-3">Card title</h5>
@@ -143,9 +198,10 @@
     </section>
 
     <!-- Modal -->
+    <div class="container">
     <div
       class="modal fade"
-      id="exampleModal"
+      id="exampleModal1"
       tabindex="-1"
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
@@ -153,7 +209,7 @@
       <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header justify-content-center">
-            <h3 class="modal-title" id="exampleModalLabel">Modal title</h3>
+            <h3 class="modal-title" id="exampleModalLabel">Modal 1</h3>
           </div>
           <div class="modal-body text-center">
             <p>
@@ -177,6 +233,109 @@
         </div>
       </div>
     </div>
+    <div
+      class="modal fade"
+      id="exampleModal2"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header justify-content-center">
+            <h3 class="modal-title" id="exampleModalLabel">Modal 2</h3>
+          </div>
+          <div class="modal-body text-center">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita
+              veniam debitis explicabo illum, odit asperiores laborum tenetur
+              animi harum, laboriosam, beatae cumque delectus perferendis
+              dignissimos quod unde provident molestias repellendus.
+            </p>
+            <button type="button" class="btn btn-primary w-75">link 1</button>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal3"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header justify-content-center">
+            <h3 class="modal-title" id="exampleModalLabel">Modal 3</h3>
+          </div>
+          <div class="modal-body text-center">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita
+              veniam debitis explicabo illum, odit asperiores laborum tenetur
+              animi harum, laboriosam, beatae cumque delectus perferendis
+              dignissimos quod unde provident molestias repellendus.
+            </p>
+            <button type="button" class="btn btn-primary w-75">link 1</button>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal4"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header justify-content-center">
+            <h3 class="modal-title" id="exampleModalLabel">Modal 4</h3>
+          </div>
+          <div class="modal-body text-center">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita
+              veniam debitis explicabo illum, odit asperiores laborum tenetur
+              animi harum, laboriosam, beatae cumque delectus perferendis
+              dignissimos quod unde provident molestias repellendus.
+            </p>
+            <button type="button" class="btn btn-primary w-75">link 1</button>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <!-- footer -->
     <footer class="footer py-2" style="background-color: rgb(197, 197, 197)">
@@ -193,13 +352,7 @@
           </div>
           <div class="col-lg-3 mb-5 mb-lg-0">
             <h4 class="text-uppercase mb-4">Maps</h4>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15944.58876694022!2d115.1995812871582!3d-2.4580695999999977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de53f5a14327a99%3A0x7bc3b7a6dc3ae44c!2sSMPIT%20Ihsanul%20Amal!5e0!3m2!1sid!2sid!4v1712571429246!5m2!1sid!2sid"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.1474302424117!2d115.2156728244911!3d-2.457989738028331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de53fac071f23b9%3A0x39f84406dd812961!2sSIT%20Ihsanul%20Amal!5e0!3m2!1sid!2sid!4v1712790448650!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <!-- Footer About Text-->
           <div class="col-lg-3 mb-5 mb-lg-0">
@@ -217,24 +370,24 @@
           <div class="col-lg-3 mb-5 mb-lg-0">
             <h4 class="text-uppercase mb-4">Media Sosial</h4>
             <a
-              class="col-lg-8 mb-3 btn btn-outline-light btn-social mx-1"
+              class="mb-3 btn btn-outline-light btn-social mx-1"
               href="#"
-              ><i class="bi bi-facebook"></i>Facebook</a
+              ><i class="bi bi-facebook"></i></a
             >
             <a
-              class="col-lg-8 mb-3 btn btn-outline-light btn-social mx-1"
+              class="mb-3 btn btn-outline-light btn-social mx-1"
               href="#"
-              ><i class="bi bi-twitter"></i>Twitter</a
+              ><i class="bi bi-twitter"></i></a
             >
             <a
-              class="col-lg-8 mb-3 btn btn-outline-light btn-social mx-1"
+              class="mb-3 btn btn-outline-light btn-social mx-1"
               href="#"
-              ><i class="bi bi-linkedin"></i>Linkedin</a
+              ><i class="bi bi-linkedin"></i></a
             >
             <a
-              class="col-lg-8 mb-3 btn btn-outline-light btn-social mx-1"
+              class="mb-3 btn btn-outline-light btn-social mx-1"
               href="#"
-              ><i class="bi bi-youtube"></i>Youtube</a
+              ><i class="bi bi-youtube"></i></a
             >
           </div>
         </div>
