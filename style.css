@@ -80,4 +80,10 @@ body {
   }
 }
 @media (max-width: 576px) {
+  .card-trip {
+    width: 145px;
+  }
+  .card-trip p {
+    font-size: 0.8rem;
+  }
 }
