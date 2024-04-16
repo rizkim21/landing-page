@@ -1,3 +1,7 @@
+:root {
+  --color-1: #222;
+  --color-2: #ececec;
+}
 body {
   font-size: 1.2rem;
   font-family: "Montserrat", sans-serif;
@@ -22,17 +26,17 @@ body {
 }
 
 .prime main {
-  color: rgb(255, 255, 255);
+  color: var(--color-2);
 }
 
 .mynavbar {
-  background-color: #222 !important;
+  background-color: var(--color-1) !important;
 }
 
 .mynavbar .navbar-brand {
   font-size: 1.6rem;
-  font-weight: bold;
-  color: #c6c6c6;
+  font-weight: bolder;
+  color: var(--color-2);
 }
 
 .mynavbar .navbar-collapse {
@@ -44,13 +48,19 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   text-decoration: none;
-  color: #c7c7c7;
+  color: var(--color-2);
+  font-weight: bold;
 }
 
 .mynavbar .navbar-collapse a:hover {
-  color: white;
-  background-color: #000000;
+  color: var(--color-2);
+  background-color: var(--color-1);
   border-radius: 5px;
+}
+
+.info {
+  background-color: var(--color-1) !important;
+  color: var(--color-2);
 }
 
 .card-trip {
@@ -59,15 +69,24 @@ body {
 }
 
 .card-trip:hover {
-  outline: 0.1rem solid #222;
+  outline: 0.1rem solid var(--color-1);
   outline-offset: 0;
   transform: scale(1.02);
 }
 
+.footer {
+  background-color: var(--color-1) !important;
+  color: var(--color-2);
+}
+
 @media (max-width: 1200px) {
 }
+
+/* Laptop */
 @media (max-width: 992px) {
 }
+
+/* Tablet */
 @media (max-width: 768px) {
   .mynavbar .navbar-brand {
     font-size: 1.2rem;
@@ -78,12 +97,11 @@ body {
   .card-trip p {
     font-size: 0.9rem;
   }
+  .info .imgvimi {
+    width: 100%;
+  }
 }
+
+/* Phone */
 @media (max-width: 576px) {
-  .card-trip {
-    width: 145px;
-  }
-  .card-trip p {
-    font-size: 0.8rem;
-  }
 }
