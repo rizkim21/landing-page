@@ -72,6 +72,17 @@ body {
   border-radius: 10px;
 }
 
+.info h3 {
+  font-weight: bold;
+}
+.info p {
+  font-size: 1rem;
+}
+
+.info p.misi {
+  font-style: italic;
+}
+
 .card-trip {
   position: relative;
   cursor: pointer;
